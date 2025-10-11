@@ -48,8 +48,7 @@ It eliminates clutter and complexity found in many recipe apps, offering an inte
 ## 💻 Installation
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/recipe-finder.git  ```
+```git clone https://github.com/your-username/recipe-finder.git  ```
 
 2.hi
 
