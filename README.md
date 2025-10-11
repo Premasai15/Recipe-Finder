@@ -67,13 +67,13 @@ Check out the live version here:https://warm-axolotl-ebdb07.netlify.app/
 🖼 Screenshots
 
 Home Page
-
+![Home Page](assets/screenshots/home.png)
 
 Search Results
-
+![Search Results](assets/screenshots/search-results.png)
 
 Recipe Details Modal
-
+![Recipe Details](assets/screenshots/recipe-modal.png)
 
 🔮 Future Enhancements
 
