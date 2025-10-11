@@ -62,7 +62,7 @@ Click on a recipe card to view detailed ingredients and step-by-step cooking ins
 
 🌐 Live Demo
 
-Check out the live version here: Recipe Finder Demo
+Check out the live version here:https://warm-axolotl-ebdb07.netlify.app/
 
 🖼 Screenshots
 
