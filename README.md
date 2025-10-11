@@ -48,7 +48,8 @@ It eliminates clutter and complexity found in many recipe apps, offering an inte
 ## 💻 Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Premasai15/recipe-finder.git
+git clone https://github.com/Premasai15/recipe-finder.git ---
+
 2.Navigate to the project folder and open index.html in a modern web browser.
 
 🚀 Usage
