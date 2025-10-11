@@ -48,8 +48,55 @@ It eliminates clutter and complexity found in many recipe apps, offering an inte
 ## 💻 Installation
 1. Clone the repository:
 
-``` bash
-git clone https://github.com/Premasai15/recipe-finder.git  ```
+```git clone https://github.com/Premasai15/recipe-finder.git  ```
 
-2.hi
+Navigate to the project folder and open index.html in a modern web browser.
+
+🚀 Usage
+
+Enter available ingredients in the search box (e.g., chicken, tomato).
+
+Apply optional filters to narrow down results.
+
+Click on a recipe card to view detailed ingredients and step-by-step cooking instructions.
+
+🌐 Live Demo
+
+Check out the live version here: Recipe Finder Demo
+
+🖼 Screenshots
+
+Home Page
+
+
+Search Results
+
+
+Recipe Details Modal
+
+
+🔮 Future Enhancements
+
+Add user authentication and favorite recipe saving with Node.js and MongoDB backend
+
+Implement AI-based personalized meal suggestions
+
+Add voice search and text-to-speech accessibility features
+
+Upgrade to a Progressive Web Application for offline access
+
+🤝 Contributing
+
+Contributions are welcome!
+Please fork the repository and open a pull request with your changes.
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+🙏 Acknowledgments
+
+Spoonacular API for recipe data
+
+MDN Web Docs and W3Schools for web development references
 
