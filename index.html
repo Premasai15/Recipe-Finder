@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🍳 Recipe Finder</h1>
+      <p class="subtitle">Discover delicious recipes with your ingredients</p>
+    </div>
+
+    <div class="search-section">
+      <div id="errorMessage" class="error" style="display: none;"></div>
+      <div class="input-group">
+        <input type="text" id="ingredientInput" placeholder="Enter an ingredient (e.g., chicken, tomato, pasta)">
+        <button onclick="addIngredient()">Add Ingredient</button>
+      </div>
+      <div class="ingredients-list" id="ingredientsList"></div>
+
+      <div class="filters">
+        <select id="dietFilter">
+          <option value="">Any Diet</option>
+          <option value="vegetarian">Vegetarian</option>
+          <option value="vegan">Vegan</option>
+          <option value="gluten-free">Gluten Free</option>
+          <option value="dairy-free">Dairy Free</option>
+        </select>
+        <select id="cuisineFilter">
+          <option value="">Any Cuisine</option>
+          <option value="italian">Italian</option>
+          <option value="mexican">Mexican</option>
+          <option value="chinese">Chinese</option>
+          <option value="indian">Indian</option>
+          <option value="japanese">Japanese</option>
+          <option value="thai">Thai</option>
+          <option value="french">French</option>
+        </select>
+        <select id="mealType">
+          <option value="">Any Meal</option>
+          <option value="breakfast">Breakfast</option>
+          <option value="lunch">Lunch</option>
+          <option value="dinner">Dinner</option>
+          <option value="snack">Snack</option>
+          <option value="dessert">Dessert</option>
+        </select>
+      </div>
+      <button onclick="searchRecipes()" style="width: 100%;">🔍 Find Recipes</button>
+    </div>
+
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>Finding delicious recipes...</p>
+    </div>
+
+    <div id="recipesContainer"></div>
+  </div>
+
+  <div class="modal" id="recipeModal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal()">×</button>
+      <img class="modal-image" id="modalImage" src="" alt="">
+      <div class="modal-body">
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="recipe-meta" id="modalMeta"></div>
+        <div class="modal-section">
+          <h3>📝 Ingredients</h3>
+          <ul class="ingredients-list-modal" id="modalIngredients"></ul>
+        </div>
+        <div class="modal-section">
+          <h3>👨‍🍳 Instructions</h3>
+          <ol class="instructions-list" id="modalInstructions"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
