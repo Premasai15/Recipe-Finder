@@ -73,7 +73,10 @@ Search Results
 ![Search Results](assets/screenshots/search-results.png)
 
 Recipe Details Modal
-![Recipe Details](assets/screenshots/recipe-modal.png)
+![Recipe Details](assets/screenshots/recipe-modal1.png)
+
+Steps involved
+![Recipe Details](assets/screenshots/steps.png)
 
 🔮 Future Enhancements
 
